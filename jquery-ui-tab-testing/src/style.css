@@ -1,0 +1,24 @@
+body {
+  overflow-x: hidden;
+}
+
+#tabs {
+  max-width: 900px;
+  margin: auto;
+}
+
+#tabs img {
+  height: 100%;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.tab-content {
+  display: flex;
+  gap: 20px;
+}
+
+.tab-content img, .tab-content p {
+  width: 50%;
+}
